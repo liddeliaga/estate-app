@@ -46,8 +46,8 @@ const Contact = () => {
    
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
                 <div className='flex flex-wrap'>
-                    <div className='w-full md:w-1/2 text-left'>
-                        Your Name 
+                    <div className='w-full md:w-1/2 text-left '>
+                        YOUR Name 
                         <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name' required/>
 
                     </div>
